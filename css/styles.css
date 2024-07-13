@@ -1,0 +1,124 @@
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 1280px;
+  width: 100%;
+  font-family: "Roboto";
+  margin: 0 auto;
+  background-image: url(../images/galant.png);
+}
+.container-hero {
+  position: relative;
+  width: 100%;
+  max-width: 998px;
+  background-image: url(../images/galant.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 0 0px 0;
+  margin: 0 auto;
+}
+.card {
+  width: 22%;
+  display: flex;
+  height: 100%;
+  /* width: calc((100% - 3 * 4px) / 4); */
+  min-height: 80px;
+  cursor: pointer;
+  background-size: cover;
+  object-fit: cover;
+  margin: 4px;
+  border-radius: 12px;
+}
+@media (min-width: 425px) {
+  .card {
+    height: 92px;
+  }
+}
+@media (min-width: 480px) {
+  .card {
+    height: 104px;
+  }
+}
+@media (min-width: 576px) {
+  .card {
+    width: 15%;
+    height: 86px;
+  }
+}
+@media (min-width: 670px) {
+  .card {
+    width: 15.4%;
+    height: 106px;
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    width: 14%;
+    height: 106px;
+  }
+}
+@media (min-width: 820px) {
+  .card {
+    width: 15%;
+    height: 122px;
+  }
+}
+@media (min-width: 998px) {
+  .card {
+    width: 15%;
+    height: 150px;
+  }
+} 
+@media (min-width: 1024px) {
+  .card {
+    width: 15%;
+    height: 150px;
+  }
+}
+#board {
+  width: 100%;
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0px;
+  background-image: url(../images/lemon.png);
+}
+#controlPanel {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  width: 300px;
+  margin: 14px auto 0;
+  color: rgb(18, 59, 14);
+  margin: 10px 10px;
+  background-image: url(../images/lemoncello.png);
+  border-radius: 12px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+#scoreOutput {
+  margin-left: 20px;
+  font-weight: bold;
+}
+#startGame {
+  background-color: #50c006;
+  color: #fff;
+  padding: 10px 10px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+}
